@@ -1,4 +1,3 @@
-
 .products-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -41,6 +40,11 @@
   border: 1px solid #d1d5db;
   border-radius: 0.375rem;
   font-size: 0.875rem;
+}
+
+.search-input:focus {
+  outline: 1px solid #38b2ac;
+  border: none;
 }
 
 .filter-button {
@@ -88,7 +92,7 @@
 }
 
 .clear-button {
-  color: #38B2AC;
+  color: #38b2ac;
   background: none;
   border: none;
   cursor: pointer;
@@ -146,7 +150,7 @@
 .product-price {
   font-size: 1.125rem;
   font-weight: 600;
-  color: #38B2AC;
+  color: #38b2ac;
 }
 
 .product-footer {
@@ -158,7 +162,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #38B2AC;
+  background-color: #38b2ac;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.375rem;
@@ -168,7 +172,7 @@
 }
 
 .add-to-cart-btn:hover {
-  background-color: #2C7A7B;
+  background-color: #2c7a7b;
 }
 
 .cart-icon {
@@ -224,19 +228,19 @@
   .search-filter-container {
     flex-direction: row;
   }
-  
+
   .search-container {
     width: 50%;
   }
-  
+
   .filter-button {
     width: auto;
   }
-  
+
   .products-title {
     text-align: left;
   }
-  
+
   .products-grid {
     grid-template-columns: repeat(3, 1fr);
   }

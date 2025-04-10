@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { useNavigate, useLocation, Navigate } from "react-router-dom";
@@ -62,40 +61,39 @@ const Login = () => {
             <ShoppingCart className="login-logo" />
           </div>
           <h2 className="login-title">Welcome to Cartify</h2>
-          <p className="login-description">
-            Demo store using Fake Store API
-          </p>
+          <p className="login-description">Demo store using Fake Store API</p>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="login-content">
-            <div className="login-alert">
-              <Info className="login-alert-icon" />
-              <div className="login-alert-text">
-                This is a demo store using the Fake Store API. There is no user registration - please use the pre-filled demo credentials.
-              </div>
-            </div>
-            
             <div className="form-group">
-              <label htmlFor="username" className="form-label">Username</label>
+              <label htmlFor="username" className="form-label">
+                Username
+              </label>
               <input
                 id="username"
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className={errors.username ? "form-input input-error" : "form-input"}
+                className={
+                  errors.username ? "form-input input-error" : "form-input"
+                }
               />
               {errors.username && (
                 <p className="error-text">{errors.username}</p>
               )}
             </div>
             <div className="form-group">
-              <label htmlFor="password" className="form-label">Password</label>
+              <label htmlFor="password" className="form-label">
+                Password
+              </label>
               <input
                 id="password"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className={errors.password ? "form-input input-error" : "form-input"}
+                className={
+                  errors.password ? "form-input input-error" : "form-input"
+                }
               />
               {errors.password && (
                 <p className="error-text">{errors.password}</p>
@@ -103,16 +101,16 @@ const Login = () => {
             </div>
             <div className="credentials-info">
               <p>Demo credentials (pre-filled):</p>
-              <p>Username: <span className="font-medium">johnd</span></p>
-              <p>Password: <span className="font-medium">m38rmF$</span></p>
+              <p>
+                Username: <span className="font-medium">johnd</span>
+              </p>
+              <p>
+                Password: <span className="font-medium">m38rmF$</span>
+              </p>
             </div>
           </div>
           <div className="login-footer">
-            <button 
-              type="submit" 
-              className="login-button"
-              disabled={isLoading}
-            >
+            <button type="submit" className="login-button" disabled={isLoading}>
               {isLoading ? "Logging in..." : "Sign in to Demo"}
             </button>
           </div>

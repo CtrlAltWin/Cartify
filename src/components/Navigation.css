@@ -1,5 +1,3 @@
-
-
 .header {
   background-color: white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -30,7 +28,7 @@
 .logo-link {
   display: flex;
   align-items: center;
-  color: #38B2AC;
+  color: #38b2ac;
   font-weight: 700;
   font-size: 1.25rem;
 }
@@ -61,7 +59,7 @@
 }
 
 .nav-link:hover {
-  color: #38B2AC;
+  color: #38b2ac;
 }
 
 .cart-link {
@@ -71,14 +69,14 @@
 }
 
 .cart-link:hover {
-  color: #38B2AC;
+  color: #38b2ac;
 }
 
 .cart-badge {
   position: absolute;
   top: -0.5rem;
   right: -0.5rem;
-  background-color: #38B2AC;
+  background-color: #38b2ac;
   color: white;
   font-size: 0.75rem;
   font-weight: 700;
@@ -111,14 +109,13 @@
   display: flex;
   align-items: center;
   font-size: 0.875rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.25rem;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .logout-button:hover {
-  color: #38B2AC;
-  background-color: rgba(0, 0, 0, 0.05);
+  color: #38b2ac;
 }
 
 .logout-icon {
@@ -169,7 +166,7 @@
 }
 
 .mobile-nav-link:hover {
-  color: #38B2AC;
+  color: #38b2ac;
   background-color: #f9fafb;
 }
 
@@ -197,7 +194,7 @@
 }
 
 .mobile-logout-button:hover {
-  color: #38B2AC;
+  color: #38b2ac;
   background-color: #f9fafb;
 }
 
@@ -214,13 +211,12 @@
     align-items: center;
     gap: 2rem;
   }
-  
+
   .mobile-menu-button {
     display: none;
   }
-  
+
   .mobile-menu {
     display: none !important;
   }
 }
-
