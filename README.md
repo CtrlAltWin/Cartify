@@ -83,10 +83,6 @@ The project uses Vite for fast development and building. Available scripts:
 - `npm run build`: Build for production
 - `npm run preview`: Preview production build locally
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
